@@ -6,7 +6,10 @@ const Navbar = () => {
 	return (
 		<div className='container hidden lg:block'>
 			<div className='flex justify-between items-center pt-8 '>
-				<h1 className='text-4xl font-medium'>Logo</h1>
+				<img
+					className='w-[150px] h-[150px]'
+					src='./logo.jpeg'
+				/>
 				<div className='relative w-full max-w-[500px]'>
 					<input
 						className='bg-[#f2f3f5] border-none outline-none px-6 py-3 rounded-[30px] w-full'
