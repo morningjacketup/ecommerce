@@ -1,7 +1,7 @@
 interface propsType {
 	img: string;
 	name: string;
-	count: string;
+	count: number;
 }
 
 const CategoryCard: React.FC<propsType> = ({ img, name, count }) => {
